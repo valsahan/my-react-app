@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.menu {
+  background-color: #230e03;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 2000px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ffffff;
+}
+.menu h1 {
+  color: #ffffff;
+}
+.menu .links {
+  margin-left: auto;
+}
+.menu a {
+  color: #ffffff;
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.menu a:hover {
+  color: #e55252;
+}
+.content {
+  max-width: 1700px;
+  margin: 40px auto;
+}
+.homepage {
+  margin: 20px 0;
+  padding: 10px 16px;
+}
+
+.homepage h1 {
+  font-size: 3em;
+  position: absolute;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 8px;
+  padding-top: 50px;
+  padding-right: 1000px;
+  padding-left: 100px;
+}
+.homepage p1  {
+  position: absolute;
+  color: #ffffff;
+  font-size: 25px;
+  margin-bottom: 8px;
+  padding-top: 300px;
+  padding-right: 1200px;
+  padding-left: 50px;
+}
+
+.homepage a {
+  position: absolute;
+  font-size: 2em;
+  color: #ffffff;
+  padding-top: 600px;
+  padding-left: 200px;
+  margin-bottom: 200px;
+}
+
+.homepage h2, .homepage h3, threesome h2 {
+  font-size: 2em;
+  color: #000000;
+  padding-top: 50px;
+  padding-right: 800px;
+  padding-left: 100px;
+}
+.threesome a {
+  position: absolute;
+  font-size: 2em;
+  color: #ffffff;
+  padding-top: 1000px;
+  padding-left: 200px;
+  margin-bottom: 200px;
+}
+.newcars h2, .usecars h2 {
+  text-align: center;
+  font-size: 3em;
+  color: #000000;
+  padding-top: 20px;
+  padding-button: 150px;
+}
+
+.service, .com {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+.service label, .com label {
+  text-align: left;
+  display: block;
+}
+.service h2, .com h2 {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.service p, .com p {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 10px;
+}
+.service input, .service textarea, .service select, .com input, .com textarea, .com select {
+  width: 100%;
+  padding: 10px 50px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.service button, .com button {
+  background: #29294f;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #230e03;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  max-width: 2000px;
+  margin: 0 auto;
+  border-top: 1px solid #ffffff;
+}
+.footer h1 {
+  color: #ffffff;
+}
+.footer .links {
+  margin-left: auto;
+}
+.footer a {
+  color: #ffffff;
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.footer a:hover {
+  color: #ff5151;
+}
